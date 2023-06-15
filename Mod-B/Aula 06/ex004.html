@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt(`qual o seu nome?`) // colocar noma
+        document.write(`Seu nome é <Strong>${nome} e tem ${nome.length} letras<br/>`) // comando para contar a quantidae de letras
+        document.write(`Seu nome com letras maiúsculas ${nome.toUpperCase()}<br/>`) // comando para deixar o texto em caixa alta
+        document.write(`Seu nome com letras minúsculas ${nome.toLowerCase()}<br/>`) // comando para deixar o texto em caixa baixa
+
+        /* Exemplo de como tratar números utiizando o toFixed no nodeJS:
+            undefined n1
+            1545.5
+            > n1.toFixed(2)
+            '1545.50'
+            > n1.toFixed(2).replace('.',',') // troca ponto por virgula
+            '1545,50'
+           utlilisando o LocaleString para localisar o tipo de moeda
+            > n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+            'R$ 1.545,50'
+            > n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+            'US$ 1.545,50'
+            > n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+            '€ 1.545,50'
+            > */
+    </script>
+</body>
+</html>
