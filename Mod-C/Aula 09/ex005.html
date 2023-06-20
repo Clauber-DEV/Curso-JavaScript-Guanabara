@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando com DOM</title>
+    <style>
+        body{
+            background-color: rgba(9, 94, 28, 0.877);
+            color: blanchedalmond;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeiros passos com DOM!!</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong> DOM</strong> em JS. </p>
+    <div>Clique em mim</div>
+    <script>
+            /*        //COMANDO write serve para escrever atravez do DOM
+        window.document.write(`Olá Mundo!  `) // texto simples
+        window.document.write(window.document.charset)//set de caracteres
+        window.document.write(window.navigator.appName)//tipo de navedador
+        window.document.write(window.document.URL)// saber qual minha URL */
+
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0] // comando para achar um paragrafo utilizando getElementsByTagName
+        window.document.write(`Texto que está no paragrafo [0] `+ p1.innerText)
+        p1.style.color = 'Black'
+        corpo.style.background = 'green'
+
+    </script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "aaravb.chrome-extension-developer-tools"
+        "aaravb.chrome-extension-developer-tools",
+        "ritwickdey.liveserver"
     ]
 }
