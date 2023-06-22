@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciando com DOM</title>
     <style>
-        body{
+        body {
             background-color: rgba(14, 87, 30, 0.877);
             color: rgb(199, 241, 9);
             font: normal 18pt Arial;
         }
     </style>
 </head>
+
 <body>
     <h1>Primeiros passos com DOM!!</h1>
     <p>Aqui vai o resultado</p>
@@ -21,7 +23,7 @@
     <div class="txt3"> Texto qualquer 3</div>
 
     <script>
-            /*        //COMANDO write serve para escrever atravez do DOM
+        /*        //COMANDO write serve para escrever atravez do DOM
         window.document.write(`Olá Mundo!  `) // texto simples
         window.document.write(window.document.charset)//set de caracteres
         window.document.write(window.navigator.appName)//tipo de navedador
@@ -30,25 +32,30 @@
         /* Método baixo mostra como selecionar um texto por MARCA*/
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('h1')[0] // comando para achar um paragrafo utilizando getElementsByTagName()
-        window.document.write(`Texto que está no paragrafo [0] `+ p1.innerText)
+        window.document.write(`Texto que está no paragrafo [0] ` + p1.innerText)
         p1.style.color = 'red'
         corpo.style.background = 'green'
         window.document.write(p1.innerHTML)
         /* Tambem ha como selecionar elementos de outras formas como:
          getElementsByid() por id */
-         var id = window.document.getElementById("txt1")
-         id.style.background = 'black'
-         id.innerText = 'Não vou clicar'
-         
-         /*getElementsByname() por nome*/
-         var nome = window.document.getElementsByName("txt2")[0]
-         nome.style.background = 'blue'
-         nome.innerText = 'Ué?'
+        var id = window.document.getElementById("txt1")
+        id.style.background = 'black'
+        id.innerText = 'Não vou clicar'
 
-         /*getElementsByClassName() por classe*/
-         var classe = window.document.getElementsByClassName("txt3")[0]
-         classe.style.background = 'purple'
-         classe.innerText = 'modificado'
+        /*getElementsByname() por nome*/
+        var nome = window.document.getElementsByName("txt2")[0]
+        nome.style.background = 'blue'
+        nome.innerText = 'Ué?'
+
+        /*getElementsByClassName() por classe*/
+        var classe = window.document.getElementsByClassName("txt3")[0]
+        classe.style.background = 'purple'
+        classe.innerText = 'modificado'
+        
+        /*querySelector ou AllquerySelector() mais utilizado em modificações rapidas.*/
+        var seletor = window.document.querySelector('div.txt3')
+        seletor.style.color = 'blue'
+        seletor.style.background = 'black-pink'
     </script>
 </body>
 </html>
