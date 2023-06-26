@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM!</title>
+    <style>
+        div#area{
+            font: normal 20pt Arial;
+            background: rgb(1, 252, 147);
+            color: rgb(41, 6, 240);
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <!-- Método de chamar event pelo <div> -->
+    <div id= "area" onclick div = "clicar()" onmouseenter="entrar()" onmouseout="sair()"> 
+        Interaja! ...
+    </div>
+
+    <script>
+        /* Método de chamar o evento pelo addEventListener */
+        var clic = window.document.getElementById('area')
+        clic.addEventListener('click',clicar)
+        clic.addEventListener('mouseenter', entrar)
+        clic.addEventListener('mouseout', sair)
+        function clicar(){
+            clic.innerText = 'Clicado!'
+            clic.style.background = 'red'
+        }
+        function entrar(){
+            clic.innerText = 'Dentro!'
+        }
+        function sair(){
+            clic.innerText = 'Fora!'
+            clic.style.background  = 'rgb(1, 252, 147)'
+        }
+    </script>
+</body>
+</html>
