@@ -23,18 +23,18 @@
     <div class="txt3"> Texto qualquer 3</div>
 
     <script>
-        /*        //COMANDO write serve para escrever atravez do DOM
-        window.document.write(`Olá Mundo!  `) // texto simples
-        window.document.write(window.document.charset)//set de caracteres
-        window.document.write(window.navigator.appName)//tipo de navedador
-        window.document.write(window.document.URL)// saber qual minha URL */
+        //COMANDO write serve para escrever atravez do DOM
+        window.document.write(`Olá Mundo!  <br>`) // texto simples
+        window.document.write(window.document.charset + '<br>')//set de caracteres
+        window.document.write(window.navigator.appName + '<br>')//tipo de navedador
+        window.document.write(window.document.URL + '<br>')// saber qual minha URL
 
         /* Método baixo mostra como selecionar um texto por MARCA*/
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('h1')[0] // comando para achar um paragrafo utilizando getElementsByTagName()
-        window.document.write(`Texto que está no paragrafo [0] ` + p1.innerText)
+        window.document.write(`Texto que está no Titulo lv-h1 [0]=> ` + p1.innerText)
         p1.style.color = 'red'
-        corpo.style.background = 'green'
+        p1.style.background = 'orange'
         window.document.write(p1.innerHTML)
         /* Tambem ha como selecionar elementos de outras formas como:
          getElementsByid() por id */
