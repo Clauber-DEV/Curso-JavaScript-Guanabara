@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex 009/site</title>
+</head>
+<body>
+    <h1>Vocé é estrangeiro?</h1>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Verificar" onclick="avaliar()">
+    <div id="resultado">
+
+    </div>
+    <script>
+        function avaliar(){
+            var pais = window.document.querySelector('input#pais').value /*obs: È nessesário implementar o ".value" para receber o valor do elemento, caso contrário a variavel reseberá apenas o elemento vazio sem seus dados.*/
+            var res = window.document.querySelector('div#resultado')
+            res.innerHTML = `Você é do pais ${pais} `
+            if(pais == 'Brasil'){
+                res.innerHTML += `por tanto é Brasileiro.`
+            }else{
+                res.innerHTML += `por tanto é Estrangeiro.`
+            }
+        }
+    </script>
+</body>
+</html>
