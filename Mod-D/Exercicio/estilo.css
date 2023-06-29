@@ -1,16 +1,16 @@
-body {
+body { /* corpo*/
 
     background: rgb(133, 206, 235);
     font: normal 15pt Arial;
     
 }
 
-header{
+header{ /* Cabeçalho*/
     color: white;
     text-align: center;
 }
 
-section{
+section{ /* Sessão*/
     background: white;
     border-radius: 10pt;
     padding: 15px;
@@ -19,7 +19,7 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
 }
 
-footer{
+footer{ /* roda pé*/
     color: white;
     text-align: center;
     font-style: italic;
