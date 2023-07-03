@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="C:\Users\claub\Documents\Coisas de PROGRAMAÇÃO\Tudo de Git & GitHub\CursodeGIT Repositórios\Curso-HTML5-CSS3\Exercícios Desafíos e Anotações\Arquivo Geral\Imgs\meuico.png"
+        type="image/x-icon">
     <title>Somando Números!</title>
     <style>
         body {
             font: normal 18pt Arial;
         }
-        input{
+
+        input {
             font: normal 18pt Arial;
             width: 100px;
         }
+
         div#res {
             margin-top: 20px;
         }
     </style>
 </head>
+
 <body>
     <h1>Somando Valores!</h1>
     <input type="number" name="txtn1" id="txtn1"> + <!-- imput são caixas de entradas-->
     <input type="number" name="txtn2" id="txtn2">
     <input type="button" value="Somar" onclick="somar()">
     <div id="res">Resultado</div>
-   
+
     <script>
         function somar() {
             var tn1 = window.document.getElementById('txtn1')
@@ -33,8 +40,9 @@
             var n2 = Number(tn2.value)
             var s = n1 + n2
             res.innerHTML = `A soma ${n1} + ${n2} = ${s}`
-            
+
         }
     </script>
 </body>
+
 </html>
