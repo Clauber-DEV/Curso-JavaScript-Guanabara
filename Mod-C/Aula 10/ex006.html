@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="C:\Users\claub\Documents\Coisas de PROGRAMAÇÃO\Tudo de Git & GitHub\CursodeGIT Repositórios\Curso-HTML5-CSS3\Exercícios Desafíos e Anotações\Arquivo Geral\Imgs\meuico.png"
+        type="image/x-icon">
     <title>Eventos DOM!</title>
     <style>
-        div#area{
+        div#area {
             font: normal 20pt Arial;
             background: rgb(1, 252, 147);
             color: rgb(41, 6, 240);
@@ -16,29 +20,31 @@
         }
     </style>
 </head>
+
 <body>
-        <!-- Método de chamar event pelo <div> -->
-    <div id= "area" onclick div = "clicar()" onmouseenter="entrar()" onmouseout="sair()"> 
+    <!-- Método de chamar event pelo <div> -->
+    <div id="area" onclick div="clicar()" onmouseenter="entrar()" onmouseout="sair()">
         Interaja! ...
     </div>
 
     <script>
         /* Método de chamar o evento pelo addEventListener */
         var clic = window.document.getElementById('area')
-        clic.addEventListener('click',clicar)
+        clic.addEventListener('click', clicar)
         clic.addEventListener('mouseenter', entrar)
         clic.addEventListener('mouseout', sair)
-        function clicar(){
+        function clicar() {
             clic.innerText = 'Clicado!'
             clic.style.background = 'red'
         }
-        function entrar(){
+        function entrar() {
             clic.innerText = 'Dentro!'
         }
-        function sair(){
+        function sair() {
             clic.innerText = 'Fora!'
-            clic.style.background  = 'rgb(1, 252, 147)'
+            clic.style.background = 'rgb(1, 252, 147)'
         }
     </script>
 </body>
+
 </html>
