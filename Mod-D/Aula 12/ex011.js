@@ -1,6 +1,6 @@
 //Conceito basico de condições aninhas compostas
 
-var idade = 88
+var idade = 88 // vai depender da idade
 console.log(`Você tem ${idade} anos.`)
 if (idade < 16) {
     console.log('por tanto não vota.')
