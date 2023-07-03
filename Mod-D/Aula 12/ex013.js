@@ -1,4 +1,4 @@
-// Conceito básico do switch
+// Conceito básico do switch == troca
 
 var agora = new Date // variavel recebe data completa e atual do sistema
 var diasem = agora.getDay() /* requisição somente do dia da semana que é entregado da seguinte forma:
