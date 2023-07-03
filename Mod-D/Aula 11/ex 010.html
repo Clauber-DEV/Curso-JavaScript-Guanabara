@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="C:\Users\claub\Documents\Coisas de PROGRAMAÇÃO\Tudo de Git & GitHub\CursodeGIT Repositórios\Curso-HTML5-CSS3\Exercícios Desafíos e Anotações\Arquivo Geral\Imgs\meuico.png"
+        type="image/x-icon">
     <title>DETRAN</title>
 </head>
+
 <body>
     <h1>Sistemas de Multas</h1>
-     Velicidade do carro: <input type="number" name="txtvel" id="txtvel"> km/h <!-- caixa de entrada para incerir o número-->
-     <input type="button" value="Verificar" onclick="calcular()"> <!-- caixa para ativar a finção calcular-->
-     <div id="res"> <!-- div para receber o resutado.-->
+    Velicidade do carro: <input type="number" name="txtvel" id="txtvel"> km/h
+    <!-- caixa de entrada para incerir o número-->
+    <input type="button" value="Verificar" onclick="calcular()"> <!-- caixa para ativar a função calcular-->
+    <div id="res"> <!-- div para receber o resutado.-->
 
-     </div>
-     <script>
-        
+    </div>
+    <script>
 
-        function calcular(){ // função que irá tratar os dados
-           var txtv = window.document.querySelector('input#txtvel') // variavel que recebe os dados do input "txtvel"
-           var res = window.document.querySelector('div#res') // variavel que recebe os dados da div "res"
-           var vel =  Number(txtv.value) // variavel qua recebe os dados da variavel txtv convertidos para Number
-           res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}km/h</strong></p>` // comando para adicionar um texto na div"res"
-           if (vel > 60){ //Condição de Multa
-            res.innerHTML += `<p>Você foi Multado</p>`
-           }
-           res.innerHTML += `<p>Dirila com o cinto de segurança!</p>`
+
+        function calcular() { // função que irá tratar os dados
+            var txtv = window.document.querySelector('input#txtvel') // variavel que recebe os dados do input "txtvel"
+            var res = window.document.querySelector('div#res') // variavel que recebe os dados da div "res"
+            var vel = Number(txtv.value) // variavel qua recebe os dados da variavel txtv convertidos para Number
+            res.innerHTML = `<p>Sua velocidade atual é de <strong>${vel}km/h</strong></p>` // comando para adicionar um texto na div"res"
+            if (vel > 60) { //Condição de Multa
+                res.innerHTML += `<p>Você foi Multado</p>`
+            }
+            res.innerHTML += `<p>Dirila com o cinto de segurança!</p>`
         }
-     </script>
+    </script>
 </body>
+
 </html>
