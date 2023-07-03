@@ -1,4 +1,4 @@
-// condições compostas utiizando data atual do sistema
+// condições compostas aninhadas utiizando data atual do sistema
 
 var agora = new Date // variavel recebe data atual e completa do sistema
 var hora = agora.getHours() // requisição somente da hora do sistema
