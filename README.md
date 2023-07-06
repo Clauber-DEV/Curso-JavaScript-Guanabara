@@ -76,6 +76,9 @@ Mod-D
     ex013
         Resumo:
             Conseito basico do switch, case e breack
+    ex014
+        Resumo:
+            Exercício de criação de um site que informa as horas e modifica sua janela conforme a parte do dia
 Anotações extras:
     Ao utilizar o querySelector, toda id é representada por um " # " e toda classe é representada por um " . "
 
