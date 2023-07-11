@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="C:\Users\claub\Documents\Coisas de PROGRAMAÇÃO\Tudo de Git & GitHub\CursodeGIT Repositórios\Curso-HTML5-CSS3\Exercícios Desafíos e Anotações\Arquivo Geral\Imgs\meuico.png"
+        type="image/x-icon">
     <title>Verificador de idade.</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <header>
-        <h1>Verificador de idade</h1>
+        <h1>Informe sua idade</h1>
     </header>
     <section>
         <div>
-           <p>Ano de nascimento:
-            <input type="number" name="txtano" id="txtano">
-           </p>
-           <p>sexo:
+            <p>Ano de nascimento:
+                <input type="number" name="anoNasc" id="anoNasc">
+            </p>
+            <p>Sexo:
                 <!-- para esse caso do "input" tipo "radio" o parametro deve ter o mesmo nome-->
-                <input type="radio" name="radsex" id="mas" checked>
+                <input type="radio" name="sexo" id="masc" checked>
                 <label for="masc">Masculino</label>
-                <input type="radio" name="radsex" id="fem">
-                <label for="fem">Feminino</label>
-           </p>
-           <p>
+                <input type="radio" name="sexo" id="femi">
+                <label for="fem">Feminíno</label>
+            </p>
+            <p>
                 <input type="button" value="Verificar" onclick="verificar()">
-           </p>
+            </p>
         </div>
         <div id="res">
-            Preencha os dados acima para ver o resultado!
+            <p><small>Antes de clicar em <b>VERIFICAR</b>, Preencha os dados acima!</small></p>
         </div>
-        <div id="imgfotos">
-            <img id="fotos" src="" alt="idade">
+        <div>
+            <img id="fotos" src="" alt="">
         </div>
     </section>
     <footer>
-        <p>@ Clauber cp</p>
+        <p><small>@Clauber-cp</small></p>
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
