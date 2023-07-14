@@ -5,7 +5,7 @@ function verificar() {
     var result = window.document.getElementById('res')
 
     if (anoNasc.value.length == 0 || Number(anoNasc.value) > anoAtual) {
-        window.alert('[ERRO] Verifique os dados e preencha novamente! ')
+        window.alert('[ERRO] Dados INVALIDOS, verifique e preencha novamente! ')
     } else {
         var sexo = document.getElementsByName('sexo')
         var idade = anoAtual - Number(anoNasc.value)
