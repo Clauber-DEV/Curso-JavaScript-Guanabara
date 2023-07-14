@@ -14,8 +14,6 @@ while (num <= 6) {
 }
 
 
-
-
 // repetição sem estrutura
 console.log(`OI tudo bem?`)
 console.log(`OI tudo bem?`)
