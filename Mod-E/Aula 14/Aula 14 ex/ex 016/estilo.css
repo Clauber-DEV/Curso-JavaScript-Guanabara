@@ -1,0 +1,26 @@
+body { /* corpo*/
+
+    background: rgb(37, 216, 147);
+    font: normal 15pt Arial;
+    
+}
+
+header{ /* Cabeçalho*/
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section{ /* Sessão*/
+    background: rgb(194, 233, 217);
+    border-radius: 10pt;
+    padding: 15px;
+    width: auto;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.322);
+}
+
+footer{ /* roda pé*/
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
