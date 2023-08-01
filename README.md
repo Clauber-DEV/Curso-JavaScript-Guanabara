@@ -79,6 +79,17 @@ Mod-D
     ex014
         Resumo:
             Exercício de criação de um site que informa as horas e modifica sua janela conforme a parte do dia
+    ex015
+        Resumo:
+            Exercício de criação de um site que exibe uma foto de qual tipo de possoa é recebendo os parametros de idade e genero.
+Mod-E:
+    ex016
+        Resumo:
+            Criação de um site que executa contagens utilizando extrutura de repetição "while" recebendo os seguintes paramentos:
+            Inicio, passos de contagem e final.
+    ex017
+        Resumo:
+            Criação de site que realiza tabuada de 1 a 10 de qualque número recebido pelo usuário utilizando estrutura de repetição "for"
 Anotações extras:
     Ao utilizar o querySelector, toda id é representada por um " # " e toda classe é representada por um " . "
 
