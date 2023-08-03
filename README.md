@@ -90,6 +90,23 @@ Mod-E:
     ex017
         Resumo:
             Criação de site que realiza tabuada de 1 a 10 de qualque número recebido pelo usuário utilizando estrutura de repetição "for"
+Mod-F:
+    Vetor1
+        Resumo:
+            Concepção básica de arrays == vetores com os seguintes comandos
+            num[5] = 6 // para acrescentar um elemento no erry == vetor no indice indicado, no caso indice[5]
+            num.push(7) // comando push == empurrar para ecrescentar um elemento e mais um indice no erry
+            num.length  // para informar a quantidade de elementos em um erry.
+            num.sort()  // para ordenar os elementos do erry em ordem crescente.
+            num.indexOf() // para mostrar em qual indice fica o valor desejado.
+    Vetor2
+        Resumo:
+            Exemplos de percussores em vetores.
+            forma tradicional e resumida.
+    Aula 16
+        Resumo:
+            formas de aplicar funções:
+            
 Anotações extras:
     Ao utilizar o querySelector, toda id é representada por um " # " e toda classe é representada por um " . "
 
