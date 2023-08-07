@@ -106,7 +106,29 @@ Mod-F:
     Aula 16
         Resumo:
             formas de aplicar funções:
-            
+            funcao.js: como descobrir par ou impar e atribuir parametros na função == function
+            funcao2.js: como realizar soma de elementos e atribuir mais de um parametro na function
+            funcao3.js: uma variavel temabem pode receber uma function e tratala
+            funcao4.js: extraindo fatorial de um elemento utilizando uma function
+            funcao5.js: com tirar um fatorial de uma elemento utilizando recursividade dentro de uma function
+    Ex aula 16
+        Resumo:
+            Site que analiza dados de valores diversos de 1 a 100 utilizando multiplas funções entregando os seguintes dados:
+            quantidade de valores inseridos
+            maior valor
+            menor valor
+            media do valores
+    Aula 17
+        Resumo:
+            proximos passos em JS quais tpicos pesquisar:
+            functions
+            ojetos
+            mudularização
+            RegEx
+            JSON
+            Ajax
+            NodeJS
+            Conseito básico de objetos
 Anotações extras:
     Ao utilizar o querySelector, toda id é representada por um " # " e toda classe é representada por um " . "
 
