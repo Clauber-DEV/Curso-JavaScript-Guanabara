@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Analizador de Números</title>
+</head>
+
+<body>
+    <h1>Análise de Valores</h1>
+    <section>
+        <p>Digite números entre (1 a 100):
+            <br>
+            <input type="number" name="numero" id="numero"><input type="button" value="Adicionar" onclick="adicionar()">
+        </p><select name="lista" id="lista" size="10">
+            <option id="numeros">Seus Valores:</option>
+        </select>
+        <br>
+        <input type="button" value="Analisar" onclick="analizador()">
+        <div id="res"></div>
+    </section>
+    <footer><small>@clauber-CP</small></footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

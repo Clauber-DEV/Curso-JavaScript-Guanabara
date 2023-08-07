@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(29, 97, 243);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: aliceblue;
+    text-align: center;
+}
+section{
+    background-color: antiquewhite;
+    border-radius: 10pt;
+    padding: 15px;
+    width: auto;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(20, 20, 20, 0.87);
+    text-align: center;
+}
+select#lista{
+    width: 135px;
+    text-align: center;
+}
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(20, 20, 20, 0.568);
+}
+footer{
+    color: azure;
+    text-align: center;
+    font-style: italic;
+}
